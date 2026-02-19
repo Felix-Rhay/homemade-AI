@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Minesweeper",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "minesweeper.main",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug test_main",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "minesweeper.test_main",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+  ]
+}
